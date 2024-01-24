@@ -1,1 +1,5 @@
-# Automatic_Manual_Mode_Aquatic_Robot
+Automatic-Manual Mode Aquatic Robot
+
+The Aquatic Robot project aims to create a versatile robot capable of both automatic and manual control modes. The robot utilizes an Arduino Uno microcontroller, an ultrasonic sensor for obstacle detection and navigation (automatic mode), a servo motor for directional control in automatic mode, and a Bluetooth module for remote manual control. The project explores the integration of different components to achieve efficient navigation in aquatic environments.
+
+In automatic mode, the ultrasonic sensor continuously measures distances. If an obstacle is detected, the Arduino triggers the  motor to change the robot's direction, allowing it to navigate around obstacles.In manual mode, the Bluetooth module establishes a wireless connection with a mobile device. The Arduino processes incoming signals, allowing remote control of the robot's movement.Both modes are seamlessly integrated, enabling the robot to switch between automatic and manual control based on user preferences.
